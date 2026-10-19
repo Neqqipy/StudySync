@@ -1,0 +1,26 @@
+{
+  "name": "studysync-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StudySync - Xếp lịch học và đồ án nhóm tự động (HCMUS NMCNPM)",
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "preview": "npm --prefix client run preview",
+    "lint": "npm --prefix client run lint",
+    "test": "npm --prefix client run test",
+    "setup": "npm --prefix client install"
+  },
+  "keywords": [
+    "studysync",
+    "schedule",
+    "calendar",
+    "hcmus",
+    "nmcnpm"
+  ],
+  "author": "Đào Ngọc Hưng (24120319)",
+  "license": "ISC"
+}
