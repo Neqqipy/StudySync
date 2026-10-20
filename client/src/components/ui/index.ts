@@ -6,3 +6,4 @@ export * from './Select';
 export * from './Modal';
 export * from './EmptyState';
 export * from './ErrorBanner';
+export * from './ErrorBoundary';
