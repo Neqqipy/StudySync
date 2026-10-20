@@ -67,7 +67,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onItemClick }) => {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-bold text-slate-900 text-base tracking-tight">StudySync</span>
-              <span className="text-[10px] font-semibold bg-primary-100 text-primary-700 px-1.5 py-0.2 rounded-md">v0.1</span>
+              <span className="text-[10px] font-semibold bg-primary-100 text-primary-700 px-1.5 py-0.5 rounded-md">v0.1</span>
             </div>
             <p className="text-[11px] text-slate-400 font-medium truncate">HCMUS · NMCNPM</p>
           </div>
